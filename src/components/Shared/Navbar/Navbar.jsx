@@ -32,10 +32,10 @@ const Navbar = () => {
               <NavLink to="/skill">Skill</NavLink>
             </li>
             <li className="pl-2 md:mx-5 text-base font-semibold ">
-              <NavLink to="/blog">Project</NavLink>
+              <NavLink to="/project">Project</NavLink>
             </li>
             <li className="pl-2 md:mx-5 text-base font-semibold">
-              <NavLink to="/blog">Contact Us</NavLink>
+              <NavLink to="/contact">Contact Us</NavLink>
             </li>
           </ul>
           <div onClick={() => setIsOpen(!isOpen)} className="md:hidden">

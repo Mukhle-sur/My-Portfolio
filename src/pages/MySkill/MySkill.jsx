@@ -74,30 +74,28 @@ const Skills = () => {
     },
   ];
   return (
-    <div>
-      <div name="skills" className="">
-        <div className="max-w-screen-xl p-4 md:mx-auto flex flex-col items-center pt-12 w-full h-full py-16">
-          <SectionTitle
-            title="\* Skills */"
-            subTitle="These are the technology skill l've worked with "
-          />
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            className="w-full grid sm:grid-cols-3 md:grid-cols-4 grid-cols-2 gap-6 sm:px-5 pt-16"
-          >
-            {skills.map(({ id, img, title, style }) => (
-              <div
-                key={id}
-                className={`shadow-md hover:scale-105 rounded-lg py-2 transition duration-500 ${style}`}
-              >
-                <img src={img} alt="webSiteImage" className="w-20 mx-auto" />
-                <p className="mt-4 text-center text-white text-xl font-medium">
-                  {title}
-                </p>
-              </div>
-            ))}
-          </div>
+    <div className="bg-gradient-to-tr from-[#432848] to-[#211C30] h-full">
+      <div className="max-w-screen-xl p-4 md:mx-auto flex flex-col items-center pt-12 w-full h-full py-16">
+        <SectionTitle
+          title="\* Skills */"
+          subTitle="These are the technology skill l've worked with "
+        />
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className="w-full grid sm:grid-cols-3 md:grid-cols-4 grid-cols-2 gap-6 sm:px-5 pt-16"
+        >
+          {skills.map(({ id, img, title, style }) => (
+            <div
+              key={id}
+              className={`shadow-md hover:scale-105 rounded-lg py-2 transition duration-500 ${style}`}
+            >
+              <img src={img} alt="webSiteImage" className="w-20 mx-auto" />
+              <p className="mt-4 text-center text-white text-xl font-medium">
+                {title}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
