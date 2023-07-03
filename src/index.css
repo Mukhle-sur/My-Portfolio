@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply text-xl font-medium  hover:underline  transition-colors duration-200 tracking-wide text-blue-600;
+}
+.default {
+  @apply text-xl font-medium  hover:underline transition-colors duration-200 tracking-wide;
+}
+
+.my-container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+}
