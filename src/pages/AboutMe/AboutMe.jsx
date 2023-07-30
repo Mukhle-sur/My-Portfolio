@@ -77,7 +77,7 @@ const AboutMe = () => {
             </div>
             <div className="mt-5">
               <Link
-                to="projects"
+                to="/project"
                 smooth
                 duration={500}
                 className="border-2 group border-sky-500 text-xl font-mono font-medium rounded-xl py-2 px-5 relative md:inline-flex items-center justify-start overflow-hidden transition-all group"

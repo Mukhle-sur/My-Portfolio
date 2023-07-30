@@ -39,7 +39,7 @@ const SocialLinks = () => {
           Resume <FaFilePdf size={30} />
         </>
       ),
-      href: "https://drive.google.com/file/d/1Yx8TJ8K8O-oCdOVBk4VW7w-xRmzadss6/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1r0qvNtU9EXxBy6DfSQhOAKREeFwNbM_O/view?usp=drive_link",
       rel: "noreferrer",
       style: "rounded-br-md",
     },

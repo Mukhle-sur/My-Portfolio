@@ -7,10 +7,15 @@ const ProjectDetails = () => {
       .then((res) => res.json())
       .then((data) => setSelectedProject(data));
   }, []);
+
   return (
-    {
-      selectedProject.map()
-    }
+    <div className="bg-gradient-to-tr from-[#432848] to-[#211C30] h-full">
+      {selectedProject.map((details, index) => (
+        <section key={index} className="bg-info rounded p-4 mb-4">
+          Joma deuar somoy hoye gesilo tai diya dilam
+        </section>
+      ))}
+    </div>
   );
 };
 
