@@ -1,9 +1,8 @@
 import React from "react";
 import { AiOutlineDownload } from "react-icons/ai";
-
+const pdfUrl = "/front_end_resume.pdf";
 class PDFDownloadButton extends React.Component {
   downloadPDF = async () => {
-    const pdfUrl = '../../../public/front_end_resume.pdf';
     const fileName = "downloaded_file.pdf";
 
     try {
