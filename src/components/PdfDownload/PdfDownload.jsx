@@ -1,15 +1,15 @@
 import React from "react";
 import { AiOutlineDownload } from "react-icons/ai";
-const pdfUrl = "/front_end_resume.pdf";
+import pdfUrl from "../../../public/front_end_resume.pdf";
+
 class PDFDownloadButton extends React.Component {
   downloadPDF = async () => {
     const fileName = "downloaded_file.pdf";
-
     try {
       const response = await fetch(pdfUrl);
       const blob = await response.blob();
       const link = document.createElement("a");
-      link.href = window.URL.createObjectURL(blob);
+      link.href = window.URL.createObjectURL([blob]);
       link.download = fileName;
       document.body.appendChild(link);
       link.click();

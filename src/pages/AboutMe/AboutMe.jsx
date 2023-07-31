@@ -29,17 +29,29 @@ const AboutMe = () => {
               data-aos-duration="1000"
               className="text-lg pt-8 text-white w-full text-justify"
             >
-              Hi, my name is Mukhlesur Rahman, my home town Jamalpur,
-              Bangladesh. I passed from Brahmanbaria Polytechnic Institute in
-              Computer Science Technology in 2021. Now i am studying at Dhaka
-              International University in Computer Science and engineering. I am
-              a MERN stack web developer, I work with React.js. I love to code a
-              lot. I started learning react js web developer from 2022. I have
-              completed 8 projects with MERN Stack. Creating a project to
-              building the project through user experience. Javascript React.js,
-              Node.js, Express, MongoDb Firebase Authentication, JWT, Cors etc.
-              Which make the project more interesting by using the required
-              technology. We try to project the best of all work.
+              "I am Mukhlesur Rahman, a highly skilled MERN stack web developer
+              based in Jamalpur, Bangladesh. With a solid educational background
+              in Computer Science Technology from Brahmanbaria Polytechnic
+              Institute, I am currently pursuing my studies in Computer Science
+              and Engineering at Dhaka International University. My passion for
+              coding led me to specialize in React.js, and I have been actively
+              honing my skills in this area since 2022. With extensive hands-on
+              experience, I have successfully completed 8 projects using the
+              MERN stack. By leveraging technologies such as JavaScript,
+              React.js, Node.js, Express, MongoDB, Firebase Authentication, JWT,
+              and CORS, I ensure that each project excels in functionality and
+              user experience. I am dedicated to delivering the best outcomes
+              for my clients, placing a strong emphasis on creating projects
+              that provide exceptional user experiences. My expertise lies in
+              crafting clean, well-structured code, implementing responsive
+              designs, optimizing performance, and thoroughly testing for bugs.
+              As a professional MERN stack web developer, I am committed to
+              continuous learning and staying up-to-date with industry trends. I
+              am enthusiastic about taking on new challenges and leveraging my
+              expertise to create innovative and impactful web solutions. Thank
+              you for the opportunity to share my professional background. If
+              you have any questions or need assistance with web development,
+              feel free to ask. I'm here to help!"
             </h2>
             <div
               data-aos="flip-right"
